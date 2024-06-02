@@ -1,2 +1,2 @@
-# webster
-webster is online graphical tool with possible implementation as full app
+# uevent
+Service to search or create events to unite like-minded people.

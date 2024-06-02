@@ -1,0 +1,92 @@
+.payment-page {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #eb823c;
+    color: rgb(255, 247, 240);
+}
+  
+.payment-page h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.payment-page p {
+    top: 20px;
+    margin: 10px;
+    font-size: 30px;
+}
+.payment-link {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.payment-page .continue-button{
+    margin: 0;
+    font-size: 20px;
+}
+
+.payment-page .my-form {
+    padding: 50px;
+    background: #ffa970;
+    border: #a05828;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 45px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.397);
+    max-width: 400px;
+}
+
+.payment-page .my-form a {
+    padding: 10px 0;
+    margin-top: 40px;
+
+}
+
+.payment-page .my-form a:hover {
+    background: #742e00;
+}
+
+.thx-img{
+    width: 250px;
+}
+
+.payment-page input {
+    border: 2px solid rgb(99, 40, 2);
+    background-color: rgba(252, 252, 252, 0.692);
+    width: 230px;
+    border-radius: 5px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+  }
+
+.send-ticket-div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.send-ticket-div button{
+font-weight: bold;
+    font-size: 1.1em;
+    padding: 7px 12px;
+    border: 2px solid rgb(99, 40, 2);
+    border-radius: 15px;
+    cursor: pointer;
+    color:#f9eee4;
+    background-color: #0fa116;
+}
+
+
+.send-ticket-div button:hover {
+    cursor: pointer;
+    color:#f9eee4;
+    background-color: #054108;
+}

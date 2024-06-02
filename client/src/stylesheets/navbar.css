@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+.navbar {
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d86519;
+    color: #f9ece4;
+}
+
+.navbar h1 {
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    padding-left: 80px;
+}
+
+.navbar a, .logout, .notiffs {
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: #f9ece4;
+}
+
+
+.logout {
+    align-items: center;
+    text-decoration: none;
+    background: none;
+    border-style: none;
+    border: 0;
+    box-shadow: none;
+}
+
+.logout:hover, .notiffs:hover {
+    cursor: pointer;
+    background-color: unset;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    background-color: #745f3853;
+    border-radius: 10px;
+    min-width: 350px;
+    justify-content:space-evenly;
+    height: 75px;
+}
+
+.links img {
+    filter: none;
+    width: 50px;
+    height: 50px;
+    align-items: center; 
+}
+
+.links > div {
+    height:60px;
+    padding-right: 20px;
+}
+
+.links > a:hover, .links > div:hover {
+    background-color: #db7637;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.links-first:hover::after {
+    content: 'Create';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 10px;
+    align-items: center;
+}
+
+.links-fifth:hover::after {
+    content: 'Profile';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 12px;
+}
+
+.links-last:hover::after {
+    content: 'Logout';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 15px;
+}
+
+.links-signup:hover::after {
+    content: 'Sign-Up';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 15px;
+}
+
+.links-login:hover::after {
+    content: 'Login';
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 2.5rem;
+    position: relative;
+    bottom: 15px;
+}

@@ -1,0 +1,293 @@
+.profile-outer {
+    position: relative;
+    top: 100px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.profile-user-top {
+    display: flex;
+}
+
+.profile-user-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid #40514E;
+}
+
+.profile-user-details {
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-bottom: 70px;
+}
+
+.profile-user-details div{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.profile-username {
+    font-size: 4rem;
+    color: #b45822;
+    margin-right: 40px;
+}
+
+.profile-follow, .profile-unfollow, .profile-message, .profile-update, .profile-update-cancel{
+    font-size: 1.5em;
+    padding: 7px;
+    margin: 25px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.profile-follow:hover, .profile-unfollow:hover, .profile-message:hover, .profile-update:hover, .profile-update-cancel:hover{
+    cursor: pointer;
+    color:#E4F9F5;
+    background-color: #f1356d;
+}
+
+.profile-user-details-2 p{
+    font-size: 1.7rem;
+    padding: 0px 10px;
+}
+
+.profile-user-details-2 p span{
+    margin-left: 10px;
+    color: #f1356d;
+}
+
+.profile-user-top {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #cbdcd960;
+}
+
+.profile-toggle {
+    position: absolute;
+    top: 310px;
+    left: 37.2%;
+}
+
+.profile-toggle-special {
+    position: relative;
+    left: 95px
+}
+
+.profile-toggle button {
+    font-size: 1.5em;
+    padding: 7px;
+    margin: 25px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 120px;
+}
+
+.profile-toggle button:hover {
+    cursor: pointer;
+    color:#f9ece4;
+    background-color: #28b830;
+}
+
+.profile-image-upload {
+    position: absolute;
+}
+
+.profile-image-upload {
+    position: absolute;
+    top: 320px;
+    left: 55px;
+}
+
+.profile-image-upload input {
+    display: none;
+}
+
+.profile-image-upload-label {
+    cursor: pointer;
+}
+
+.profile-image-upload-label p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-bottom: 6px;
+    padding-top: 11px;
+    border: none;
+    border-radius: 10px;
+    color: #000000;
+    background-color: buttonface ;
+    height: 40px;
+    width: 150px;
+    box-sizing: content-box ;
+}
+
+.profile-image-upload-label p:hover {
+    background-color: #28b830;
+    color: #f9ebe4;
+}
+
+.profile-user-posts {
+    padding: 20px;
+}
+
+.event-delete {
+    font-size: 1.5em;
+    padding: 7px 12px;
+    margin: 25px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #28b830;
+    color: #f9efe4;
+    position: absolute;
+    top: 565px;
+    height: 50px;
+}
+
+.profile-user-details-3 {
+    width: 600px;
+    word-wrap: break-word;
+}
+
+.profile-user-details-3 p{
+    font-size: 1.3rem;
+    margin-left: 23px;
+}
+
+.profile-image-upload button {
+    font-size: 1.5em;
+    padding: 7px;
+    margin: 25px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: -270.4px;
+    height: 43px;
+    left: 806px;
+    width: 148px;
+}
+
+.profile-image-upload button:hover{
+    background-color: #28b830;
+    color: #f9ece4;
+}
+
+.profile-bio {
+    position: absolute;
+    width: 600px;
+    height: 70px;
+    border: 1px solid #514740;
+    border-radius: 3px;
+    resize: none;
+    font-size: 18px;
+    padding: 10px;
+    top: -100px;
+    left: 300px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.modal-content p {
+    font-size: 26px;
+    margin: 20px;
+}
+
+.modal-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b45822;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modal-content button:hover {
+    background-color: #5f2e12;
+}
+
+
+
+.confirmation-page {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #eb823c;
+}
+
+.confirmation-page h1 {
+    color: #fff;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #a14b12;
+}
+
+.my-form {
+    text-align: center;
+    padding: 50px;
+    background: #ffa970;
+    border: #a05828;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 45px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.397);
+    max-width: 400px;
+  }
+
+  .my-form a {
+    appearance: none;
+    outline: 0;
+    background-color: #d86519;
+    border-color: #a05828;
+    border: 3;
+    padding: 10px 15px;
+    font-weight:600;
+    margin: 30px auto 0 auto;
+    display: block;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 18px;
+  }
+  
